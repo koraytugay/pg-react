@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import Tweet from './Tweet.js'
 
 export default function App() {
-  
   // This is an example of using useState from React
   const [count, setCount] = useState(1);
   function increment() {
